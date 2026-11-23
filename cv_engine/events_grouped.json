@@ -1,0 +1,102 @@
+[
+  {
+    "event_id": 1,
+    "start_time": "00:00:00",
+    "end_time": "00:00:21",
+    "duration_sec": 21,
+    "objects_detected": {
+      "person": 19
+    },
+    "track_ids": [
+      10,
+      2,
+      1,
+      5,
+      7,
+      11,
+      3,
+      4,
+      6,
+      19,
+      21,
+      22,
+      31,
+      30,
+      40,
+      37,
+      49,
+      44,
+      47
+    ],
+    "keyframe": "cv_engine/keyframes\\event_4.jpg"
+  },
+  {
+    "event_id": 2,
+    "start_time": "00:00:05",
+    "end_time": "00:00:13",
+    "duration_sec": 8,
+    "objects_detected": {
+      "person": 9
+    },
+    "track_ids": [
+      56,
+      69,
+      70,
+      71,
+      78,
+      79,
+      87,
+      93,
+      92
+    ],
+    "keyframe": "cv_engine/keyframes\\event_56.jpg"
+  },
+  {
+    "event_id": 3,
+    "start_time": "00:00:10",
+    "end_time": "00:00:21",
+    "duration_sec": 11,
+    "objects_detected": {
+      "person": 15
+    },
+    "track_ids": [
+      102,
+      108,
+      111,
+      107,
+      118,
+      119,
+      114,
+      128,
+      125,
+      127,
+      137,
+      130,
+      144,
+      145,
+      146
+    ],
+    "keyframe": "cv_engine/keyframes\\event_107.jpg"
+  },
+  {
+    "event_id": 4,
+    "start_time": "00:00:15",
+    "end_time": "00:00:21",
+    "duration_sec": 6,
+    "objects_detected": {
+      "person": 9
+    },
+    "track_ids": [
+      148,
+      152,
+      153,
+      159,
+      164,
+      165,
+      167,
+      172,
+      173
+    ],
+    "keyframe": "cv_engine/keyframes\\event_148.jpg"
+  }
+]
