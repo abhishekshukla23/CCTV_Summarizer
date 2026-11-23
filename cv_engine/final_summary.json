@@ -1,0 +1,119 @@
+{
+  "total_raw_tracks_filtered": 52,
+  "total_events_analyzed": 4,
+  "executive_summary": "Based solely on the provided logs, the footage captures continuous pedestrian activity within a multi-level retail mall. Shoppers consistently used escalators to move between floors while pedestrians walked across the ground floor, with the setting featuring modern glass railings, polished floors, and visible storefronts. The environment included a bustling atmosphere with a crowd of shoppers, a person wearing a mask, and a red directional sign in the background. The footage spans a 21-second period, consistently showing this active mall environment with tracked individuals.",
+  "events": [
+    {
+      "event_id": 1,
+      "start_time": "00:00:00",
+      "end_time": "00:00:21",
+      "duration_sec": 21,
+      "objects_detected": {
+        "person": 19
+      },
+      "track_ids": [
+        10,
+        2,
+        1,
+        5,
+        7,
+        11,
+        3,
+        4,
+        6,
+        19,
+        21,
+        22,
+        31,
+        30,
+        40,
+        37,
+        49,
+        44,
+        47
+      ],
+      "keyframe": "cv_engine/keyframes\\event_4.jpg",
+      "activity_type": "Mall Escalator Traffic",
+      "scene_description": "Multiple individuals use escalators and walk through the retail mall; shops and multi-level architecture are visible. Green bounding boxes track person IDs in the surveillance footage.",
+      "alert_level": "normal"
+    },
+    {
+      "event_id": 2,
+      "start_time": "00:00:05",
+      "end_time": "00:00:13",
+      "duration_sec": 8,
+      "objects_detected": {
+        "person": 9
+      },
+      "track_ids": [
+        56,
+        69,
+        70,
+        71,
+        78,
+        79,
+        87,
+        93,
+        92
+      ],
+      "keyframe": "cv_engine/keyframes\\event_56.jpg",
+      "activity_type": "Mall Pedestrian Traffic",
+      "scene_description": "Individuals move through escalators and walk across the mall's ground floor, with storefronts and multiple levels visible. Notable details include a person wearing a mask and a red directional sign in the background.",
+      "alert_level": "normal"
+    },
+    {
+      "event_id": 3,
+      "start_time": "00:00:10",
+      "end_time": "00:00:21",
+      "duration_sec": 11,
+      "objects_detected": {
+        "person": 15
+      },
+      "track_ids": [
+        102,
+        108,
+        111,
+        107,
+        118,
+        119,
+        114,
+        128,
+        125,
+        127,
+        137,
+        130,
+        144,
+        145,
+        146
+      ],
+      "keyframe": "cv_engine/keyframes\\event_107.jpg",
+      "activity_type": "Mall Escalator Traffic",
+      "scene_description": "Shoppers utilize multiple escalators to move between floors in a large retail mall, with pedestrians walking on the ground floor. The setting features modern glass railings, polished flooring, and a crowd of shoppers in the background.",
+      "alert_level": "normal"
+    },
+    {
+      "event_id": 4,
+      "start_time": "00:00:15",
+      "end_time": "00:00:21",
+      "duration_sec": 6,
+      "objects_detected": {
+        "person": 9
+      },
+      "track_ids": [
+        148,
+        152,
+        153,
+        159,
+        164,
+        165,
+        167,
+        172,
+        173
+      ],
+      "keyframe": "cv_engine/keyframes\\event_148.jpg",
+      "activity_type": "Pedestrian Foot Traffic",
+      "scene_description": "People are moving through a multi-level shopping mall, utilizing escalators and walking paths. The setting features glass railings, storefronts, and a bustling atmosphere with labeled individuals visible in the frame.",
+      "alert_level": "normal"
+    }
+  ]
+}
