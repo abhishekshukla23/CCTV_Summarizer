@@ -1,0 +1,120 @@
+{
+  "video_duration_sec": 21.1,
+  "total_raw_tracks_filtered": 52,
+  "total_events_analyzed": 4,
+  "executive_summary": "Based solely on the provided event logs, the footage depicts a bustling multi-level shopping mall environment throughout the recorded period. Constant escalator traffic flows with shoppers moving both up and down, complemented by dense pedestrian movement across marble flooring and walkways. Visible features include glass railings, retail storefronts (notably with a red sign and promotional banner), diverse customer attire, and several individuals wearing face masks. The scene consistently shows a vibrant, busy atmosphere with no specific incidents or deviations from typical mall activity observed.",
+  "events": [
+    {
+      "event_id": 1,
+      "start_time": "00:00:00",
+      "end_time": "00:00:21",
+      "duration_sec": 21,
+      "objects_detected": {
+        "person": 19
+      },
+      "track_ids": [
+        10,
+        2,
+        1,
+        5,
+        7,
+        11,
+        3,
+        4,
+        6,
+        19,
+        21,
+        22,
+        31,
+        30,
+        40,
+        37,
+        49,
+        44,
+        47
+      ],
+      "keyframe": "event_4.jpg",
+      "activity_type": "Escalator Traffic Flow",
+      "scene_description": "Shoppers move up and down escalators in a bustling multi-level shopping mall, with glass railings and retail stores visible. Many individuals wear masks, suggesting precautionary measures in place.",
+      "alert_level": "normal"
+    },
+    {
+      "event_id": 2,
+      "start_time": "00:00:05",
+      "end_time": "00:00:13",
+      "duration_sec": 8,
+      "objects_detected": {
+        "person": 9
+      },
+      "track_ids": [
+        56,
+        69,
+        70,
+        71,
+        78,
+        79,
+        87,
+        93,
+        92
+      ],
+      "keyframe": "event_56.jpg",
+      "activity_type": "Mall Pedestrian Flow",
+      "scene_description": "Individuals navigate escalators and walkways in a brightly lit multi-level shopping mall, with some ascending/descending escalators and others moving across the marble floor; notable details include a person wearing a face mask and scattered shoppers near storefronts.",
+      "alert_level": "normal"
+    },
+    {
+      "event_id": 3,
+      "start_time": "00:00:10",
+      "end_time": "00:00:21",
+      "duration_sec": 11,
+      "objects_detected": {
+        "person": 15
+      },
+      "track_ids": [
+        102,
+        108,
+        111,
+        107,
+        118,
+        119,
+        114,
+        128,
+        125,
+        127,
+        137,
+        130,
+        144,
+        145,
+        146
+      ],
+      "keyframe": "event_107.jpg",
+      "activity_type": "Escalator Foot Traffic",
+      "scene_description": "Shoppers move between floors via escalators and walk through the mall\u2019s open atrium; notable features include a red storefront sign and diverse attire among the crowd.",
+      "alert_level": "normal"
+    },
+    {
+      "event_id": 4,
+      "start_time": "00:00:15",
+      "end_time": "00:00:21",
+      "duration_sec": 6,
+      "objects_detected": {
+        "person": 9
+      },
+      "track_ids": [
+        148,
+        152,
+        153,
+        159,
+        164,
+        165,
+        167,
+        172,
+        173
+      ],
+      "keyframe": "event_148.jpg",
+      "activity_type": "Pedestrian Foot Traffic",
+      "scene_description": "A bustling shopping mall interior features two escalators with patrons moving upward and downward; shoppers and visitors navigate the marble flooring and storefronts. Notable details include a red promotional banner and diverse customer attire.",
+      "alert_level": "normal"
+    }
+  ]
+}

@@ -1,0 +1,120 @@
+{
+  "video_duration_sec": 21.1,
+  "total_raw_tracks_filtered": 52,
+  "total_events_analyzed": 4,
+  "executive_summary": "Based solely on the provided CCTV logs, the footage captures continuous activity in a modern shopping mall from 00:00:00 to 00:00:21. It shows multiple escalators in operation with people constantly ascending and descending, while numerous pedestrians move through the mall's concourse and near storefronts. Notable elements include masked individuals, modern architecture with glass railings, bright lighting, visible store entrances, and a red promotional banner in the background. The environment consistently features a bustling, open shopping space with active foot traffic on both escalators and the main floor.",
+  "events": [
+    {
+      "event_id": 1,
+      "start_time": "00:00:00",
+      "end_time": "00:00:21",
+      "duration_sec": 21,
+      "objects_detected": {
+        "person": 19
+      },
+      "track_ids": [
+        10,
+        2,
+        1,
+        5,
+        7,
+        11,
+        3,
+        4,
+        6,
+        19,
+        21,
+        22,
+        31,
+        30,
+        40,
+        37,
+        49,
+        44,
+        47
+      ],
+      "keyframe": "event_4.jpg",
+      "activity_type": "Escalator Traffic",
+      "scene_description": "People move up and down escalators in a bustling shopping mall, with some individuals wearing face masks. The environment features multiple escalators, open storefronts, and a mix of pedestrians walking through the mall.",
+      "alert_level": "normal"
+    },
+    {
+      "event_id": 2,
+      "start_time": "00:00:05",
+      "end_time": "00:00:13",
+      "duration_sec": 8,
+      "objects_detected": {
+        "person": 9
+      },
+      "track_ids": [
+        56,
+        69,
+        70,
+        71,
+        78,
+        79,
+        87,
+        93,
+        92
+      ],
+      "keyframe": "event_56.jpg",
+      "activity_type": "Mall Escalator Traffic",
+      "scene_description": "People are moving through the mall using escalators and walking on the concourse. Notable details include masked individuals, modern mall architecture with glass railings, and a red promotional banner visible in the background.",
+      "alert_level": "normal"
+    },
+    {
+      "event_id": 3,
+      "start_time": "00:00:10",
+      "end_time": "00:00:21",
+      "duration_sec": 11,
+      "objects_detected": {
+        "person": 15
+      },
+      "track_ids": [
+        102,
+        108,
+        111,
+        107,
+        118,
+        119,
+        114,
+        128,
+        125,
+        127,
+        137,
+        130,
+        144,
+        145,
+        146
+      ],
+      "keyframe": "event_107.jpg",
+      "activity_type": "Escalator Pedestrian Flow",
+      "scene_description": "Two escalators are in operation with individuals ascending and descending, while numerous pedestrians move through the mall's interior space. Notable details include a person holding the escalator handrail and the mall's bright, modern interior with visible store entrances.",
+      "alert_level": "normal"
+    },
+    {
+      "event_id": 4,
+      "start_time": "00:00:15",
+      "end_time": "00:00:21",
+      "duration_sec": 6,
+      "objects_detected": {
+        "person": 9
+      },
+      "track_ids": [
+        148,
+        152,
+        153,
+        159,
+        164,
+        165,
+        167,
+        172,
+        173
+      ],
+      "keyframe": "event_148.jpg",
+      "activity_type": "Escalator Foot Traffic",
+      "scene_description": "Pedestrians ascend and descend the central escalator while others walk on the mall's main floor near storefronts and display areas. Notable visual elements include the metallic escalator structure and the open, bright shopping environment.",
+      "alert_level": "normal"
+    }
+  ]
+}

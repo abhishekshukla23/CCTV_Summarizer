@@ -1,6 +1,7 @@
 import os
 import json
 import ollama
+import sys
 
 
 
@@ -82,21 +83,33 @@ def ask_video_question(question, context_block):
 
 
 if __name__ == "__main__":
-    if not os.path.exists(final_output_path):
-        raise FileNotFoundError(f"Run vlm_analyzer.py first to generate {final_output_path}")
-    
-    context=load_video_context(final_output_path)
-    
+    import argparse
+
+    parser = argparse.ArgumentParser(description="CCTV Grounded Video Q&A")
+    parser.add_argument("--summary", default=final_output_path, help="Path to summary.json")
+    parser.add_argument("--question", default=None, help="Single question to answer and exit")
+    args = parser.parse_args()
+
+    if not os.path.exists(args.summary):
+        raise FileNotFoundError(f"Summary file not found: {args.summary}")
+
+    context = load_video_context(args.summary)
+
+    # One-shot mode for Express backend
+    if args.question:
+        result = ask_video_question(args.question, context)
+        print(json.dumps(result))
+        sys.exit(0)
+
+    # Interactive terminal mode
     print("=== CCTV Video Q&A Ready (type 'exit' to quit) ===\n")
-    
     while True:
-        user_q=input("Ask about the video:").strip()
-        if user_q.lower() in ["exit","quit"]:
+        user_q = input("Ask about the video: ").strip()
+        if user_q.lower() in ["exit", "quit"]:
             break
-        
         if not user_q:
             continue
-        
-        result=ask_video_question(user_q,context)
+
+        result = ask_video_question(user_q, context)
         print(f"\nAnswer: {result.get('answer')}")
         print(f"Timestamps: {result.get('relevant_timestamps')}\n")
